@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# virtual environment
+venv_langraph
+
+
 # Distribution / packaging
 .Python
 build/
