@@ -3,13 +3,13 @@ from agent_reason_runnable import react_agent_runnable, tools
 from react_state import AgentState
 from dotenv import load_dotenv
 load_dotenv()
-tool_executor =ToolExecutor(tools)
+
 
 def reason_node(state:AgentState):
     agent_outcome = react_agent_runnable.invoke(state)
     return {"agent_outcome": agent_outcome}
 
-
+tool_executor =ToolExecutor(tools)
 
 def act_node(state:AgentState):
     agent_action = state["agent_outcome"]
