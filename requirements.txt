@@ -7,3 +7,7 @@ grandalf
 neo4j
 langchain_openai
 langsmith
+langchain_huggingface
+langchain_groq
+wikipedia
+faiss-cpu
