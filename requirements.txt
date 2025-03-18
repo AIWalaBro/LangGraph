@@ -11,3 +11,4 @@ langchain_huggingface
 langchain_groq
 wikipedia
 faiss-cpu
+chromadb
