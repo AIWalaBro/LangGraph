@@ -12,3 +12,4 @@ langchain_groq
 wikipedia
 faiss-cpu
 chromadb
+streamlit
