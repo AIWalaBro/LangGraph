@@ -13,3 +13,4 @@ wikipedia
 faiss-cpu
 chromadb
 streamlit
+
